@@ -114,17 +114,17 @@
 
   console.log( 'O resultado da multiplicação é:' );
   console.log(multiplication(function(number1 - number2){
-    return number1 - number2;
+    return number1 * number2;
   }));
 
   console.log( 'O resultado da divisão é:' );
   console.log(division(function(number1 - number2){
-    return number1 - number2;
+    return number1 / number2;
   }));
 
   console.log( 'O resto da divisão é:' );
   console.log(mod(function(number1 - number2){
-    return number1 - number2;
+    return number1 % number2;
   }));
 
 
